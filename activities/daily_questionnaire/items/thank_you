@@ -1,0 +1,11 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "@id": "thank_you",
+    "ui": {
+        "inputType": "markdown-message"
+    },
+    "question": "Thanks for completing your daily questionnaire on MindLogger, see you again tomorrow!"
+}

@@ -1,0 +1,27 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/hotavocado/GDQ-PM-LF/master/protocols/custom_daily_questionnaire/custom_daily_questionnaire_context"
+    ],
+    "@type": "reproschema:Protocol",
+    "@id": "custom_daily_questionnaire_schema",
+    "skos:prefLabel": "Bedtime Tracker (L.F.)",
+    "schema:description": "Answer a daily questionnaire about your child's sleep",
+    "schema:image": "https://raw.githubusercontent.com/ChildMindInstitute/Clinic-Applet-Images/main/images/png/CDQ.png",
+    "landingPage": "https://raw.githubusercontent.com/hotavocado/GDQ-CM-EI/main/protocols/custom_daily_questionnaire/README.md",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "ui": {
+        "addProperties": [
+            {
+                "variableName": "daily_questionnaire",
+                "isAbout": "daily_questionnaire",
+                "isVis": true
+            }
+        ],
+        "order": [
+            "daily_questionnaire"
+        ],
+        "shuffle": false
+    }
+}

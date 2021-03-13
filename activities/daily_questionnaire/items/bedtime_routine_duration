@@ -1,0 +1,11 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "@id": "bedtime_routine_duration",
+    "ui": {
+        "inputType": "text"
+    },
+    "question": "How many minutes did you spend in her room before she fell asleep?"
+}

@@ -1,0 +1,26 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "daily_questionnaire": "https://raw.githubusercontent.com/hotavocado/GDQ-PM-LF/master/activities/daily_questionnaire/items/",
+        "asleep_alone": {
+            "@id": "daily_questionnaire:asleep_alone",
+            "@type": "@id"
+        },
+        "bedtime_routine": {
+            "@id": "daily_questionnaire:bedtime_routine",
+            "@type": "@id"
+        },
+        "bedtime_routine_duration": {
+            "@id": "daily_questionnaire:bedtime_routine_duration",
+            "@type": "@id"
+        },
+        "notes": {
+            "@id": "daily_questionnaire:notes",
+            "@type": "@id"
+        },
+        "thank_you": {
+            "@id": "daily_questionnaire:thank_you",
+            "@type": "@id"
+        }
+    }
+}

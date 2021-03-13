@@ -1,0 +1,11 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "@id": "bedtime_routine",
+    "ui": {
+        "inputType": "time"
+    },
+    "question": "What time was the bedtime routine started?"
+}

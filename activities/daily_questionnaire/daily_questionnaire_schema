@@ -1,0 +1,50 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/hotavocado/GDQ-PM-LF/master/activities/daily_questionnaire/daily_questionnaire_context"
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "daily_questionnaire_schema",
+    "skos:prefLabel": "Daily Questionnaire",
+    "schema:description": "Answer a daily questionnaire about your child's sleep",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "scoringLogic": {},
+    "ui": {
+        "addProperties": [
+            {
+                "variableName": "asleep_alone",
+                "isAbout": "asleep_alone",
+                "isVis": true
+            },
+            {
+                "variableName": "bedtime_routine",
+                "isAbout": "bedtime_routine",
+                "isVis": true
+            },
+            {
+                "variableName": "bedtime_routine_duration",
+                "isAbout": "bedtime_routine_duration",
+                "isVis": true
+            },
+            {
+                "variableName": "notes",
+                "isAbout": "notes",
+                "isVis": true
+            },
+            {
+                "variableName": "thank_you",
+                "isAbout": "thank_you",
+                "isVis": true
+            }
+        ],
+        "order": [
+            "asleep_alone",
+            "bedtime_routine",
+            "bedtime_routine_duration",
+            "notes",
+            "thank_you"
+        ],
+        "shuffle": false
+    }
+}
