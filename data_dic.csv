@@ -2,7 +2,7 @@ Variable / Field Name,Section Header,Form Name,Form Display Name,Form Note,heade
 asleep_alone,,daily_questionnaire,Daily Questionnaire,Answer a daily questionnaire about your child's sleep,,,radio,,autoAdvance,Did she fall asleep on her own?,"1, Yes | 0, No ",,,
 bedtime_routine,,daily_questionnaire,Daily Questionnaire,Answer a daily questionnaire about your child's sleep,,,time,,,What time was the bedtime routine started?,,,,
 bedtime_routine_duration,,daily_questionnaire,Daily Questionnaire,Answer a daily questionnaire about your child's sleep,,,text,,,How many minutes did you spend in her room before she fell asleep?,,,,
-notes,,daily_questionnaire,Daily Questionnaire,Answer a daily questionnaire about your child's sleep,,,text,,,Please leave some comments:,,,,
+notes,,daily_questionnaire,Daily Questionnaire,Answer a daily questionnaire about your child's sleep,,,text,,dontKnow,Please leave some comments:,,,,
 thank_you,,daily_questionnaire,Daily Questionnaire,Answer a daily questionnaire about your child's sleep,,,markdown-message,,,"Thanks for completing your daily questionnaire on MindLogger, see you again tomorrow!",,,,
 ,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,

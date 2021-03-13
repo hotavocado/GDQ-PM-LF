@@ -5,7 +5,10 @@
     "@type": "reproschema:Field",
     "@id": "notes",
     "ui": {
-        "inputType": "text"
+        "inputType": "text",
+        "allow": [
+            "dontKnow"
+        ]
     },
     "question": "Please leave some comments:"
 }
